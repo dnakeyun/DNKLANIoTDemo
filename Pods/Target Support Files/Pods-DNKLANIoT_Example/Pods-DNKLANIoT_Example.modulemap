@@ -1,0 +1,6 @@
+framework module Pods_DNKLANIoT_Example {
+  umbrella header "Pods-DNKLANIoT_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

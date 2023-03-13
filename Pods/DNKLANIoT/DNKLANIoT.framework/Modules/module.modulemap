@@ -1,0 +1,6 @@
+framework module DNKLANIoT {
+  umbrella header "DNKLANIoT.h"
+
+  export *
+  module * { export * }
+}

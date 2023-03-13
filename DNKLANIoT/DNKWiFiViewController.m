@@ -1,0 +1,38 @@
+//
+//  DNKWiFiViewController.m
+//  DNKLANIoT_Example
+//
+//  Created by 陈群 on 2023/3/13.
+//  Copyright © 2023 cqcool. All rights reserved.
+//
+
+#import "DNKWiFiViewController.h"
+
+@interface DNKWiFiViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *oneLabel;
+@property (weak, nonatomic) IBOutlet UITextField *nameView;
+@property (weak, nonatomic) IBOutlet UITextField *passwordView;
+/// 网关热点WiFi
+@property (copy, nonatomic) NSString *gatewayHotWiFi;
+@end
+
+@implementation DNKWiFiViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    NSString *tips = [NSString stringWithFormat:@"请将手机Wi-Fi连接到设备热点：%@，密码与WiFi名一致,连接成功后返回小狄管家APP。\n\n\n注意：由于苹果设备连接Wi-Fi能力有限，若尝试多次后仍无法连接Wi-Fi，请尝试点击热点：%@右侧的“ⓘ”按钮，点击“忽略此网络”，尝试重新连接。", self.ioT.apName, self.ioT.apName];
+    self.oneLabel.text = tips;
+    self.nameView.text = @"CQ-WiFi";
+    self.passwordView.text = @"123456789";
+}
+
+- (IBAction)bindGatewayByWiFi:(id)sender {
+    [self.ioT bindGatewayWithEssid:self.nameView.text psk:self.passwordView.text resultBlock:^(BOOL result, NSError * _Nullable error) {
+        NSLog(@"%@", result ? @"网关绑定成功" : @"网关绑定失败");
+    }];
+}
+- (IBAction)backAction:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+@end

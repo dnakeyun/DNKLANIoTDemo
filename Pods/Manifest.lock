@@ -1,0 +1,21 @@
+PODS:
+  - CocoaAsyncSocket (7.6.5)
+  - DNKLANIoT (1.0.0):
+    - CocoaAsyncSocket
+
+DEPENDENCIES:
+  - DNKLANIoT
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CocoaAsyncSocket
+  https://github.com/dnakeyun/dnake-specs.git:
+    - DNKLANIoT
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  DNKLANIoT: 314665574c06c2bcbcdaaf10155233a45c58c4e3
+
+PODFILE CHECKSUM: 91620caec07ceb9a81ac37a1c6cf972f557dd552
+
+COCOAPODS: 1.11.3
