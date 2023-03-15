@@ -25,10 +25,15 @@
     self.nameView.text = @"CQ-WiFi";
     self.passwordView.text = @"123456789";
 }
-
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [self.view endEditing:YES];
+}
 - (IBAction)bindGatewayByWiFi:(id)sender {
-    [self.ioT bindGatewayWithEssid:self.nameView.text psk:self.passwordView.text resultBlock:^(BOOL result, NSError * _Nullable error) {
-        NSLog(@"%@", result ? @"网关绑定成功" : @"网关绑定失败");
+    [self.ioT setWiFiWithEssid:self.nameView.text psk:self.passwordView.text resultBlock:^(BOOL result, NSError * _Nullable error) {
+        NSLog(@"%@", result ? @"Wi-Fi设置成功" : @"Wi-Fi设置失败");
+        /*
+         网络上设置成功后，网关海鸥
+         */
     }];
 }
 - (IBAction)backAction:(id)sender {

@@ -7,7 +7,7 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'DNKLANIoT_Example' do
-  pod 'DNKLANIoT'
+  pod 'DNKLANIoT', :path => '../'
   
   
   target 'DNKLANIoT_Tests' do

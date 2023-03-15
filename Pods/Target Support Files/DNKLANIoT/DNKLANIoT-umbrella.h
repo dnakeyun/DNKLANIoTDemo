@@ -10,6 +10,19 @@
 #endif
 #endif
 
+#import "DNKIoTKitDefine.h"
+#import "DNKIotUtils.h"
+#import "IoTConstKey.h"
+#import "IoTSendCmd.h"
+#import "DNKIoTRequest+Excute.h"
+#import "DNKIoTRequest.h"
+#import "DNKIoTResponse.h"
+#import "DNKIoTService.h"
+#import "DNKIotEntry.h"
+#import "IoTKitProtocol.h"
+#import "EncryptMsg.h"
+#import "UdpIoTEntry.h"
+#import "IoTTaskSchedule.h"
 #import "DNKIoTConfig.h"
 #import "DNKLANIoT.h"
 
