@@ -28,8 +28,8 @@
 {
     [super viewDidLoad];
 //    self.cardView.hidden = YES;
-    self.udidLabel.text = @"62454666e4b07837da6c6147";
-    self.config.udid = @"62454666e4b07837da6c6147";
+    self.udidLabel.text = @"";
+    self.config.udid = @"";
 }
 - (DNKIoTConfig *)config {
     if (!_config) {
@@ -47,7 +47,7 @@
     };
 }
 - (IBAction)pushWiFiAction:(id)sender {
-    NSAssert(self.config.udid, @"网关UDID不能为空");
+    NSAssert(self.config.udid.length, @"网关UDID不能为空");
     UIStoryboard *board = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     DNKWiFiViewController *vc = [board instantiateViewControllerWithIdentifier:@"DNKWiFiViewController"];
     vc.ioT = self.ioT;

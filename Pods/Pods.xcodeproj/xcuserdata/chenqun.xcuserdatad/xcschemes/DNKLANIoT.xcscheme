@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6B0319DA410489ECB0FD8AF718BF7E0F"
-               BuildableName = "DNKLANIoT.framework"
+               BuildableName = "DNKLANIoT"
                BlueprintName = "DNKLANIoT"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

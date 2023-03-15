@@ -1,23 +1,21 @@
 PODS:
   - CocoaAsyncSocket (7.6.5)
-  - DNKLANIoT (1.0.0):
+  - DNKLANIoT (1.0.1):
     - CocoaAsyncSocket
 
 DEPENDENCIES:
-  - DNKLANIoT (from `../`)
+  - DNKLANIoT
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - CocoaAsyncSocket
-
-EXTERNAL SOURCES:
-  DNKLANIoT:
-    :path: "../"
+  https://github.com/dnakeyun/dnake-specs.git:
+    - DNKLANIoT
 
 SPEC CHECKSUMS:
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
-  DNKLANIoT: 51c9bf78237c3ff3940defa948e4b90392fcc888
+  DNKLANIoT: 8a6ad457a74187ec798b90c5f0b6ce38f8ab6123
 
-PODFILE CHECKSUM: e01c255b2ec84001d71f479bf5f454764202015c
+PODFILE CHECKSUM: 91fcee7e383480dc604f2b3a98d13d66f879e9d2
 
 COCOAPODS: 1.11.3

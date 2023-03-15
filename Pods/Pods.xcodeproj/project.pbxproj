@@ -6,79 +6,60 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		6B0319DA410489ECB0FD8AF718BF7E0F /* DNKLANIoT */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AAB2DBED74155D6E5EB9925202238C48 /* Build configuration list for PBXAggregateTarget "DNKLANIoT" */;
+			buildPhases = (
+			);
+			dependencies = (
+				184C4B039959C4D5F2AFD70840CA3C2D /* PBXTargetDependency */,
+			);
+			name = DNKLANIoT;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		04152C1C781A81073790458B7466447B /* IoTConstKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBB5841E6940F695E02F7793D344D5C /* IoTConstKey.m */; };
-		114C121344849B3B36BE8705A01903F0 /* DNKLANIoT.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A33EE0C88334A649EDE64BD21043C3 /* DNKLANIoT.m */; };
-		12F482FE2022286A223FFC9BFA84F83A /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA2F280BBE43CE867EB51D76410E472 /* CocoaAsyncSocket-dummy.m */; };
-		156FA0178A0B5BAD8150D6401574040C /* EncryptMsg.h in Headers */ = {isa = PBXBuildFile; fileRef = 50F879C030A63E7B069BF73627859C77 /* EncryptMsg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12F482FE2022286A223FFC9BFA84F83A /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A01A1570CBC32C96CCBD1BD3E4D78289 /* CocoaAsyncSocket-dummy.m */; };
 		1640F44F2311D2DA8AD01F936B746675 /* Pods-DNKLANIoT_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAB6B3F37FF83DF2189E65D490277D28 /* Pods-DNKLANIoT_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		215FCA02F5B4425A7083EACE14521681 /* DNKIoTRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 03786872356A3BFE24A28DE32C302311 /* DNKIoTRequest.m */; };
-		2324BF032E9628F8E8838B6D0E006842 /* DNKIoTService.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BDEC84403EC45FBB41355FBF405B68A /* DNKIoTService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26F87A3DC73299D66231DFE835E9C13D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */; };
-		29845114A0873EEBCB93177C6440BC05 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA757AA0941828D57B726A4D6A17E21 /* ReplaceMe.m */; };
-		2D754043057876C6870AEFEA88FF4287 /* UdpIoTEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C1A12852CCB9F509476670FA10A5A1 /* UdpIoTEntry.m */; };
-		3094EB1D47F59A14793687D0D67814F9 /* IoTSendCmd.h in Headers */ = {isa = PBXBuildFile; fileRef = A1EEA9CBE9D9C00D852AA9D44125E0AC /* IoTSendCmd.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3330935DBF86F51FCF5E71ECF9C07684 /* DNKIotUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 17193C5DC1368DDEB09B7EFF8CBE0A02 /* DNKIotUtils.m */; };
 		33A88215D5655DDBF56DEAA41CC8D8DA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BE90665B4A1053C5FF26D5289CBC83 /* CFNetwork.framework */; };
-		37B0BF2484BE142772F5429AEE5CF0B1 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A9B6CEB7A4373DC0D4DCB1C9C5E465 /* GCDAsyncUdpSocket.m */; };
-		39250AF2D3BA817A34D975EA60CC4DC7 /* DNKIoTRequest+Excute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF298CCD4B5DBBA3D8F855D90008024 /* DNKIoTRequest+Excute.m */; };
-		3F183192B4F638D453F2068B7A1C0175 /* DNKIotUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 63507AC921DC7613CF7263595E97CA5C /* DNKIotUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FC2272F4C11472C903CFCC6A101313E /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DEE8A2C9D85B1AE3111A98DABA3911 /* GCDAsyncSocket.m */; };
+		37B0BF2484BE142772F5429AEE5CF0B1 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = AC19B530586548DB3AF2EE226B8089CC /* GCDAsyncUdpSocket.m */; };
+		4FC2272F4C11472C903CFCC6A101313E /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7779E97322EA4BC4F333AF78EF7CC3 /* GCDAsyncSocket.m */; };
 		50DACC382699670A0CE3B26E9BE3739B /* Pods-DNKLANIoT_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 055FE5E8D079B9E45648D1326B2F770D /* Pods-DNKLANIoT_Tests-dummy.m */; };
-		610D5D7EBD592BCD5249C0B2E6E72C72 /* DNKIoTConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AAC6C1C98C860E4BDE79EAB92E7803 /* DNKIoTConfig.m */; };
-		67A4DC4B4DB5321811BC3D3627AE855E /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 9374467D9662C558DC594371C21B1B16 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		721A6A91E20C24D0CA607A259D398F22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */; };
-		7B60C4F590B6B7F2D179FEC1832A5E00 /* DNKLANIoT.h in Headers */ = {isa = PBXBuildFile; fileRef = 387BCA9B822D820117B5533006334D5F /* DNKLANIoT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67A4DC4B4DB5321811BC3D3627AE855E /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = E75B9B1B040CAF6E2BD1E09E0586B335 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B956FE71C48EDAAC727E2316E40E533 /* Pods-DNKLANIoT_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6428DCF278DF74913FC57CC80549BC6F /* Pods-DNKLANIoT_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C1DD31A3A7A0FBBA1A9C88A92CAA28C /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87D53D2468F4A76F969B555628969C00 /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8018EB0E235F8B829831C367F1FAB547 /* DNKIoTService.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EF633AF9387A6A3D45B16AD94A9463 /* DNKIoTService.m */; };
-		85FE033A7B53A2BE4F39E9EAC436B2E5 /* IoTTaskSchedule.h in Headers */ = {isa = PBXBuildFile; fileRef = 2762F2596C11D9DC6DE3C3E59865097A /* IoTTaskSchedule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C1DD31A3A7A0FBBA1A9C88A92CAA28C /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AFC701D4DBA9D7244DDD1D606D4026E /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8861DA09219E12C0A1DBA07EB1CEB94A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABAB7562D0623DFC2D01E0A09448472 /* Security.framework */; };
-		887FE5B8851E734712DABD39DA9EF2CA /* IoTSendCmd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC5AA9FD91E73EF2F923B0FE217BEE3 /* IoTSendCmd.m */; };
-		8B05F36F611259E044ED46C8CEE7E058 /* DNKIoTRequest+Excute.h in Headers */ = {isa = PBXBuildFile; fileRef = B087CA03BD344C4CCD18CB3A5BB39AB9 /* DNKIoTRequest+Excute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8D7FAE5C99C2C3AA836D0B1B3F55334C /* UdpIoTEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B26025D3DA0837BDFEBEA1341C8B30 /* UdpIoTEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D86335CBAFE607FB58F25BBC7D89FA6 /* Pods-DNKLANIoT_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21225ACC7E58E4904FCB15BD5F25674D /* Pods-DNKLANIoT_Example-dummy.m */; };
-		A69BD4AF448238D5CB83F742716826FE /* DNKIotEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = BB6A9ED7143782483BB8444ECDF63114 /* DNKIotEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAC0C84AFECAAE5CE807F35C1DEA0A72 /* DNKIoTRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B4663E4139F1FB0D555CA6F95DCEA5 /* DNKIoTRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC19DFB71D34D3316E47ABEAE0EA96A6 /* IoTKitProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A8B46F6D04EC064DE7CA50F629CCD823 /* IoTKitProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B19D3C79B36157522E7662E737D558EF /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = C8710A4087DF748E081735FBBBC2E72B /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6245DB1BDE85F8E102DFACFAE4BCF06 /* DNKIoTResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = CD124E06DE7379990E323F05D2A3741A /* DNKIoTResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2EC17007B932B04296ADD1DF42F28AC /* DNKIoTResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB65E8CA515E8A06270542924EDFD77 /* DNKIoTResponse.m */; };
-		CC07E1262AF181C21BD162573C9569FF /* IoTTaskSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFB541D602500AE970BBCCFC261ECDD /* IoTTaskSchedule.m */; };
-		D23AD6844832AF4587FCF8B1CF1C8C6C /* IoTConstKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 09C3F60336F50B010C0DAC5B8744107F /* IoTConstKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B19D3C79B36157522E7662E737D558EF /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 18DFEA8FE2F647F356055001642FC187 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D48E2A760AEB074C8AF5DF4CF0C6FC7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */; };
-		D88220DF1C9B0805161C6F03E8FA4623 /* EncryptMsg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F9A9AB49779DE3212A8B81046352C23 /* EncryptMsg.cpp */; };
-		D9500E0783136F950883BC8E7707237D /* DNKIotEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B6527981779FEB14005FE8AA44C1A0 /* DNKIotEntry.m */; };
-		E12FB502B536C0858401F69E336964DB /* DNKLANIoT-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02EECC419BCE316413CFC265AF6410A2 /* DNKLANIoT-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED1805B024109DDFC3FD65A35DDFF1C2 /* DNKIoTConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = C721980164A6C8FA5A45AE96A61FB34F /* DNKIoTConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE3C31D4FF9C69D9B5B23A79668A9957 /* DNKLANIoT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D2E331C0A05F4D00E4678BE4809957 /* DNKLANIoT-dummy.m */; };
-		EF7090F7F2F08B3204B980CA2093D6F3 /* DNKIoTKitDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = CB6990AE9F063DA6CC8E310E478F9F61 /* DNKIoTKitDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1965014CA3214840C45134D64C2D14C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2661121753CC5DACB3E82984F4F2E75B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
-			remoteInfo = CocoaAsyncSocket;
-		};
-		31F3D08D3979A23C9E01EA653515160A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6B0319DA410489ECB0FD8AF718BF7E0F;
-			remoteInfo = DNKLANIoT;
-		};
-		3F7AAF75DA919654947D9B4C0D57598F /* PBXContainerItemProxy */ = {
+		1E123D90FF349A672A8EAE7193F161B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6817BC3B6D337BC266547AF6D03B6C79;
 			remoteInfo = "Pods-DNKLANIoT_Example";
 		};
-		F27DAD6929E3F499486417C263A2E9CE /* PBXContainerItemProxy */ = {
+		81AAD19A9D38FCD56F5EBC18A1AA584B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		BF3AA8198248B807D5F26B2A69616A1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B0319DA410489ECB0FD8AF718BF7E0F;
+			remoteInfo = DNKLANIoT;
+		};
+		FBC9B1A241CF3D892B1BC7887C655B9A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -88,81 +69,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00B26025D3DA0837BDFEBEA1341C8B30 /* UdpIoTEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UdpIoTEntry.h; sourceTree = "<group>"; };
-		02EECC419BCE316413CFC265AF6410A2 /* DNKLANIoT-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DNKLANIoT-umbrella.h"; sourceTree = "<group>"; };
-		03786872356A3BFE24A28DE32C302311 /* DNKIoTRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DNKIoTRequest.m; sourceTree = "<group>"; };
 		055FE5E8D079B9E45648D1326B2F770D /* Pods-DNKLANIoT_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DNKLANIoT_Tests-dummy.m"; sourceTree = "<group>"; };
 		066B4D6204E5AEAC930F6593A189F246 /* Pods-DNKLANIoT_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNKLANIoT_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		090D6BDE3C2BCE651585582936724642 /* DNKLANIoT */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DNKLANIoT; path = DNKLANIoT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		09C3F60336F50B010C0DAC5B8744107F /* IoTConstKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IoTConstKey.h; sourceTree = "<group>"; };
 		0F62DE88BC0DD7244677250767A49338 /* Pods-DNKLANIoT_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNKLANIoT_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0FA757AA0941828D57B726A4D6A17E21 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = DNKLANIoT/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		0FF298CCD4B5DBBA3D8F855D90008024 /* DNKIoTRequest+Excute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DNKIoTRequest+Excute.m"; sourceTree = "<group>"; };
-		15D031E282A5CFCC3CF35A9CB78018FE /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
-		17193C5DC1368DDEB09B7EFF8CBE0A02 /* DNKIotUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DNKIotUtils.m; sourceTree = "<group>"; };
-		1A7CF9F2D85AD6EB2D9F534DBEC491A7 /* CocoaAsyncSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.debug.xcconfig; sourceTree = "<group>"; };
+		14B29DB9902F914CFF5B45C07F8FADA6 /* DNKLANIoT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DNKLANIoT.release.xcconfig; sourceTree = "<group>"; };
+		18DFEA8FE2F647F356055001642FC187 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
 		1D2261867EC149CBB0E17D9475EFB619 /* Pods-DNKLANIoT_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DNKLANIoT_Example"; path = Pods_DNKLANIoT_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DB65E8CA515E8A06270542924EDFD77 /* DNKIoTResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DNKIoTResponse.m; sourceTree = "<group>"; };
-		1DC50D0794A58D8053F600D5D2C8B5EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1E7779E97322EA4BC4F333AF78EF7CC3 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
 		1E8290465E8E6BDB4F0E57EE020476E9 /* Pods-DNKLANIoT_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DNKLANIoT_Example-frameworks.sh"; sourceTree = "<group>"; };
 		21225ACC7E58E4904FCB15BD5F25674D /* Pods-DNKLANIoT_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DNKLANIoT_Example-dummy.m"; sourceTree = "<group>"; };
 		244964BFF2DB0A331117DFF18F190317 /* Pods-DNKLANIoT_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DNKLANIoT_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2762F2596C11D9DC6DE3C3E59865097A /* IoTTaskSchedule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IoTTaskSchedule.h; sourceTree = "<group>"; };
-		29B75CF3B70EA956A7096484DDB64546 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		2FC5AA9FD91E73EF2F923B0FE217BEE3 /* IoTSendCmd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IoTSendCmd.m; sourceTree = "<group>"; };
-		30D97476E9CAF0AD4E717BB2DC59CE9A /* DNKLANIoT.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DNKLANIoT.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		387BCA9B822D820117B5533006334D5F /* DNKLANIoT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DNKLANIoT.h; sourceTree = "<group>"; };
-		41DEE8A2C9D85B1AE3111A98DABA3911 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
-		43C1A12852CCB9F509476670FA10A5A1 /* UdpIoTEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UdpIoTEntry.m; sourceTree = "<group>"; };
+		3853E902F6045E38935CBAA338F32BEB /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		3AFC701D4DBA9D7244DDD1D606D4026E /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
 		45934299036447F8E19DF42410BB6417 /* Pods-DNKLANIoT_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DNKLANIoT_Example.modulemap"; sourceTree = "<group>"; };
-		464778CFFAC2F1AAAADD1EA221F1BCC1 /* DNKLANIoT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DNKLANIoT.release.xcconfig; sourceTree = "<group>"; };
-		49F67181FAE287E2A9A83FD09CB9E062 /* DNKLANIoT.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DNKLANIoT.modulemap; sourceTree = "<group>"; };
 		4B4F7015DAD5AF26978AC7E328517AB9 /* Pods-DNKLANIoT_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DNKLANIoT_Tests"; path = Pods_DNKLANIoT_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4CFB541D602500AE970BBCCFC261ECDD /* IoTTaskSchedule.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IoTTaskSchedule.m; sourceTree = "<group>"; };
-		4F9A9AB49779DE3212A8B81046352C23 /* EncryptMsg.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; path = EncryptMsg.cpp; sourceTree = "<group>"; };
-		50A33EE0C88334A649EDE64BD21043C3 /* DNKLANIoT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DNKLANIoT.m; sourceTree = "<group>"; };
-		50F879C030A63E7B069BF73627859C77 /* EncryptMsg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EncryptMsg.h; sourceTree = "<group>"; };
-		517D13E58160E6AF4CC90189C711892E /* CocoaAsyncSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaAsyncSocket-Info.plist"; sourceTree = "<group>"; };
-		5CE1E8858C6639EA2736554B50D9F3CC /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
-		60B6527981779FEB14005FE8AA44C1A0 /* DNKIotEntry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DNKIotEntry.m; sourceTree = "<group>"; };
-		63507AC921DC7613CF7263595E97CA5C /* DNKIotUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DNKIotUtils.h; sourceTree = "<group>"; };
-		63D2E331C0A05F4D00E4678BE4809957 /* DNKLANIoT-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DNKLANIoT-dummy.m"; sourceTree = "<group>"; };
+		50C67CEF23C72B2BF9C18235E2E74DF9 /* DNKLANIoT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DNKLANIoT.debug.xcconfig; sourceTree = "<group>"; };
+		527864652FE063AB48FCB03E4BF32662 /* CocoaAsyncSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.release.xcconfig; sourceTree = "<group>"; };
 		6428DCF278DF74913FC57CC80549BC6F /* Pods-DNKLANIoT_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DNKLANIoT_Tests-umbrella.h"; sourceTree = "<group>"; };
 		647D4D2AA81BD3F55E02998862706AB4 /* Pods-DNKLANIoT_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNKLANIoT_Example.release.xcconfig"; sourceTree = "<group>"; };
+		65BDC34F44B2AB6C2F1A8AE73E0F32DE /* CocoaAsyncSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaAsyncSocket-Info.plist"; sourceTree = "<group>"; };
 		6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		72F29FE7499B83FB5FD580208F4E0F8D /* CocoaAsyncSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.release.xcconfig; sourceTree = "<group>"; };
 		7537F7740A6E2648E59A6F3A31DE4CC5 /* Pods-DNKLANIoT_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DNKLANIoT_Example-Info.plist"; sourceTree = "<group>"; };
-		78A9B6CEB7A4373DC0D4DCB1C9C5E465 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 		79B1D3D6B4BB8FC14C0135E4445CA927 /* Pods-DNKLANIoT_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DNKLANIoT_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7ABAB7562D0623DFC2D01E0A09448472 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7CED845D77A43D0FA8F1BEE5CE2D4355 /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
 		7D09D0AE15C28BDB9F7125514A482A8F /* Pods-DNKLANIoT_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DNKLANIoT_Tests-Info.plist"; sourceTree = "<group>"; };
 		7FA4E76AD7D6DD3490D8BAC9A3F2A93A /* Pods-DNKLANIoT_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DNKLANIoT_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7FBB5841E6940F695E02F7793D344D5C /* IoTConstKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IoTConstKey.m; sourceTree = "<group>"; };
-		87D53D2468F4A76F969B555628969C00 /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
-		91EF633AF9387A6A3D45B16AD94A9463 /* DNKIoTService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DNKIoTService.m; sourceTree = "<group>"; };
 		928C4CD289D351370E37F88AEE6DE044 /* Pods-DNKLANIoT_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DNKLANIoT_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9374467D9662C558DC594371C21B1B16 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
-		98075DD8D4A63DC43C31F7ED9906FE2A /* DNKLANIoT-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DNKLANIoT-prefix.pch"; sourceTree = "<group>"; };
 		99C388FEB8AED80674DB23C662FB720F /* Pods-DNKLANIoT_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DNKLANIoT_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9BDEC84403EC45FBB41355FBF405B68A /* DNKIoTService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DNKIoTService.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0B4663E4139F1FB0D555CA6F95DCEA5 /* DNKIoTRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DNKIoTRequest.h; sourceTree = "<group>"; };
-		A1EEA9CBE9D9C00D852AA9D44125E0AC /* IoTSendCmd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IoTSendCmd.h; sourceTree = "<group>"; };
+		A01A1570CBC32C96CCBD1BD3E4D78289 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
 		A6BE90665B4A1053C5FF26D5289CBC83 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		A8B46F6D04EC064DE7CA50F629CCD823 /* IoTKitProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IoTKitProtocol.h; sourceTree = "<group>"; };
-		B087CA03BD344C4CCD18CB3A5BB39AB9 /* DNKIoTRequest+Excute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DNKIoTRequest+Excute.h"; sourceTree = "<group>"; };
+		AC19B530586548DB3AF2EE226B8089CC /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 		B544CE8E4564B4D6AF57EDDD82B2E524 /* Pods-DNKLANIoT_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DNKLANIoT_Tests.modulemap"; sourceTree = "<group>"; };
-		B7AAC6C1C98C860E4BDE79EAB92E7803 /* DNKIoTConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DNKIoTConfig.m; sourceTree = "<group>"; };
-		BB6A9ED7143782483BB8444ECDF63114 /* DNKIotEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DNKIotEntry.h; sourceTree = "<group>"; };
-		BCECAC728159082E365F29CB1D411382 /* DNKLANIoT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DNKLANIoT.debug.xcconfig; sourceTree = "<group>"; };
-		C721980164A6C8FA5A45AE96A61FB34F /* DNKIoTConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DNKIoTConfig.h; sourceTree = "<group>"; };
-		C8710A4087DF748E081735FBBBC2E72B /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
-		CB6990AE9F063DA6CC8E310E478F9F61 /* DNKIoTKitDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DNKIoTKitDefine.h; sourceTree = "<group>"; };
-		CD124E06DE7379990E323F05D2A3741A /* DNKIoTResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DNKIoTResponse.h; sourceTree = "<group>"; };
-		DCA2F280BBE43CE867EB51D76410E472 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		CCC95ED9D809F0B355BFCC4D5EADA6F4 /* CocoaAsyncSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.debug.xcconfig; sourceTree = "<group>"; };
+		E75B9B1B040CAF6E2BD1E09E0586B335 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
 		EAB6B3F37FF83DF2189E65D490277D28 /* Pods-DNKLANIoT_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DNKLANIoT_Example-umbrella.h"; sourceTree = "<group>"; };
-		EDCAF0BFF24B5E9AF3D039675F7DB0D7 /* DNKLANIoT-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DNKLANIoT-Info.plist"; sourceTree = "<group>"; };
+		EDC57DA02BEF1D85A24AFB5BB6D65A41 /* DNKLANIoT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DNKLANIoT.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,14 +136,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F002CAE45E48A43B33B101485163EFF2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				721A6A91E20C24D0CA607A259D398F22 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -211,92 +147,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		20FBA2814F5B8EB1A46334124B635D73 /* Support Files */ = {
+		168F20FD7C48B0E94AD8B03F6968ACAA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				15D031E282A5CFCC3CF35A9CB78018FE /* CocoaAsyncSocket.modulemap */,
-				DCA2F280BBE43CE867EB51D76410E472 /* CocoaAsyncSocket-dummy.m */,
-				517D13E58160E6AF4CC90189C711892E /* CocoaAsyncSocket-Info.plist */,
-				5CE1E8858C6639EA2736554B50D9F3CC /* CocoaAsyncSocket-prefix.pch */,
-				87D53D2468F4A76F969B555628969C00 /* CocoaAsyncSocket-umbrella.h */,
-				1A7CF9F2D85AD6EB2D9F534DBEC491A7 /* CocoaAsyncSocket.debug.xcconfig */,
-				72F29FE7499B83FB5FD580208F4E0F8D /* CocoaAsyncSocket.release.xcconfig */,
+				7CED845D77A43D0FA8F1BEE5CE2D4355 /* CocoaAsyncSocket.modulemap */,
+				A01A1570CBC32C96CCBD1BD3E4D78289 /* CocoaAsyncSocket-dummy.m */,
+				65BDC34F44B2AB6C2F1A8AE73E0F32DE /* CocoaAsyncSocket-Info.plist */,
+				3853E902F6045E38935CBAA338F32BEB /* CocoaAsyncSocket-prefix.pch */,
+				3AFC701D4DBA9D7244DDD1D606D4026E /* CocoaAsyncSocket-umbrella.h */,
+				CCC95ED9D809F0B355BFCC4D5EADA6F4 /* CocoaAsyncSocket.debug.xcconfig */,
+				527864652FE063AB48FCB03E4BF32662 /* CocoaAsyncSocket.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/CocoaAsyncSocket";
 			sourceTree = "<group>";
 		};
-		2112BABAAFB0D1677BF87BF569B20016 /* LANKit */ = {
+		4A83A7DA284AC767B70A74F24772E281 /* CocoaAsyncSocket */ = {
 			isa = PBXGroup;
 			children = (
-				A143B74E848CE1BC81D6C45DC37E32B7 /* UDP */,
+				E75B9B1B040CAF6E2BD1E09E0586B335 /* GCDAsyncSocket.h */,
+				1E7779E97322EA4BC4F333AF78EF7CC3 /* GCDAsyncSocket.m */,
+				18DFEA8FE2F647F356055001642FC187 /* GCDAsyncUdpSocket.h */,
+				AC19B530586548DB3AF2EE226B8089CC /* GCDAsyncUdpSocket.m */,
+				168F20FD7C48B0E94AD8B03F6968ACAA /* Support Files */,
 			);
-			name = LANKit;
-			path = LANKit;
-			sourceTree = "<group>";
-		};
-		2CA066C7A49A5484E62A06EACC7D0528 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				49F67181FAE287E2A9A83FD09CB9E062 /* DNKLANIoT.modulemap */,
-				63D2E331C0A05F4D00E4678BE4809957 /* DNKLANIoT-dummy.m */,
-				EDCAF0BFF24B5E9AF3D039675F7DB0D7 /* DNKLANIoT-Info.plist */,
-				98075DD8D4A63DC43C31F7ED9906FE2A /* DNKLANIoT-prefix.pch */,
-				02EECC419BCE316413CFC265AF6410A2 /* DNKLANIoT-umbrella.h */,
-				BCECAC728159082E365F29CB1D411382 /* DNKLANIoT.debug.xcconfig */,
-				464778CFFAC2F1AAAADD1EA221F1BCC1 /* DNKLANIoT.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DNKLANIoT";
-			sourceTree = "<group>";
-		};
-		3D95579DFC2F679628AEBFD59C719E32 /* Private */ = {
-			isa = PBXGroup;
-			children = (
-				A0B4663E4139F1FB0D555CA6F95DCEA5 /* DNKIoTRequest.h */,
-				03786872356A3BFE24A28DE32C302311 /* DNKIoTRequest.m */,
-				B087CA03BD344C4CCD18CB3A5BB39AB9 /* DNKIoTRequest+Excute.h */,
-				0FF298CCD4B5DBBA3D8F855D90008024 /* DNKIoTRequest+Excute.m */,
-				CD124E06DE7379990E323F05D2A3741A /* DNKIoTResponse.h */,
-				1DB65E8CA515E8A06270542924EDFD77 /* DNKIoTResponse.m */,
-				9BDEC84403EC45FBB41355FBF405B68A /* DNKIoTService.h */,
-				91EF633AF9387A6A3D45B16AD94A9463 /* DNKIoTService.m */,
-				C76305E4F21832D4069CE3B97759547D /* const */,
-				6430A1D729FC9C4EB3111BB0FFA665B2 /* IoTKit */,
-				D78F1C2C6BBDAB3A297BE89AB0E37E49 /* IoTTaskSchedule */,
-			);
-			name = Private;
-			path = DNKLANIoT/Classes/Private;
-			sourceTree = "<group>";
-		};
-		3EBD797572D808C1F61F6D5598B11D94 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F231B17801D572225D6DC31C59C0CEF6 /* DNKLANIoT */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		52524C1E67B4B8995A56EF2CBD52D8CD /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				30D97476E9CAF0AD4E717BB2DC59CE9A /* DNKLANIoT.podspec */,
-				29B75CF3B70EA956A7096484DDB64546 /* LICENSE */,
-				1DC50D0794A58D8053F600D5D2C8B5EC /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		6430A1D729FC9C4EB3111BB0FFA665B2 /* IoTKit */ = {
-			isa = PBXGroup;
-			children = (
-				BB6A9ED7143782483BB8444ECDF63114 /* DNKIotEntry.h */,
-				60B6527981779FEB14005FE8AA44C1A0 /* DNKIotEntry.m */,
-				A8B46F6D04EC064DE7CA50F629CCD823 /* IoTKitProtocol.h */,
-				2112BABAAFB0D1677BF87BF569B20016 /* LANKit */,
-			);
-			name = IoTKit;
-			path = IoTKit;
+			name = CocoaAsyncSocket;
+			path = CocoaAsyncSocket;
 			sourceTree = "<group>";
 		};
 		76666EC62D9A573280052643788A1FC3 /* Pods-DNKLANIoT_Tests */ = {
@@ -315,61 +191,60 @@
 			path = "Target Support Files/Pods-DNKLANIoT_Tests";
 			sourceTree = "<group>";
 		};
-		89A4EC172D3960DFE6739B02C54496D8 /* Public */ = {
+		8685DEFF9F1B4349795072B34B48C504 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C721980164A6C8FA5A45AE96A61FB34F /* DNKIoTConfig.h */,
-				B7AAC6C1C98C860E4BDE79EAB92E7803 /* DNKIoTConfig.m */,
-				387BCA9B822D820117B5533006334D5F /* DNKLANIoT.h */,
-				50A33EE0C88334A649EDE64BD21043C3 /* DNKLANIoT.m */,
-			);
-			name = Public;
-			path = DNKLANIoT/Classes/Public;
-			sourceTree = "<group>";
-		};
-		A143B74E848CE1BC81D6C45DC37E32B7 /* UDP */ = {
-			isa = PBXGroup;
-			children = (
-				4F9A9AB49779DE3212A8B81046352C23 /* EncryptMsg.cpp */,
-				50F879C030A63E7B069BF73627859C77 /* EncryptMsg.h */,
-				00B26025D3DA0837BDFEBEA1341C8B30 /* UdpIoTEntry.h */,
-				43C1A12852CCB9F509476670FA10A5A1 /* UdpIoTEntry.m */,
-			);
-			name = UDP;
-			path = UDP;
-			sourceTree = "<group>";
-		};
-		BB2BDAA8DB999C491DAC5EAE1CFDC78F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F26488BF13288A9B8CB091FA9570EC0F /* CocoaAsyncSocket */,
+				4A83A7DA284AC767B70A74F24772E281 /* CocoaAsyncSocket */,
+				CB83A02B6ACA365E788830493743B3DB /* DNKLANIoT */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		C76305E4F21832D4069CE3B97759547D /* const */ = {
+		8D7B9865C6EE8F5A13661839A2FEA096 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CB6990AE9F063DA6CC8E310E478F9F61 /* DNKIoTKitDefine.h */,
-				63507AC921DC7613CF7263595E97CA5C /* DNKIotUtils.h */,
-				17193C5DC1368DDEB09B7EFF8CBE0A02 /* DNKIotUtils.m */,
-				09C3F60336F50B010C0DAC5B8744107F /* IoTConstKey.h */,
-				7FBB5841E6940F695E02F7793D344D5C /* IoTConstKey.m */,
-				A1EEA9CBE9D9C00D852AA9D44125E0AC /* IoTSendCmd.h */,
-				2FC5AA9FD91E73EF2F923B0FE217BEE3 /* IoTSendCmd.m */,
+				50C67CEF23C72B2BF9C18235E2E74DF9 /* DNKLANIoT.debug.xcconfig */,
+				14B29DB9902F914CFF5B45C07F8FADA6 /* DNKLANIoT.release.xcconfig */,
 			);
-			name = const;
-			path = const;
+			name = "Support Files";
+			path = "../Target Support Files/DNKLANIoT";
+			sourceTree = "<group>";
+		};
+		B79CEEFD416507C09BA2DFDD41629F3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */,
+				1D2261867EC149CBB0E17D9475EFB619 /* Pods-DNKLANIoT_Example */,
+				4B4F7015DAD5AF26978AC7E328517AB9 /* Pods-DNKLANIoT_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE48317EF8D4C77B53564519918EF680 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDC57DA02BEF1D85A24AFB5BB6D65A41 /* DNKLANIoT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB83A02B6ACA365E788830493743B3DB /* DNKLANIoT */ = {
+			isa = PBXGroup;
+			children = (
+				BE48317EF8D4C77B53564519918EF680 /* Frameworks */,
+				8D7B9865C6EE8F5A13661839A2FEA096 /* Support Files */,
+			);
+			name = DNKLANIoT;
+			path = DNKLANIoT;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				3EBD797572D808C1F61F6D5598B11D94 /* Development Pods */,
 				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
-				BB2BDAA8DB999C491DAC5EAE1CFDC78F /* Pods */,
-				E35BFC8CBD18A13318A5A6721679D120 /* Products */,
+				8685DEFF9F1B4349795072B34B48C504 /* Pods */,
+				B79CEEFD416507C09BA2DFDD41629F3A /* Products */,
 				E8A248F85CDEBE386673ADF9C0F6CE91 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -382,27 +257,6 @@
 				7ABAB7562D0623DFC2D01E0A09448472 /* Security.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		D78F1C2C6BBDAB3A297BE89AB0E37E49 /* IoTTaskSchedule */ = {
-			isa = PBXGroup;
-			children = (
-				2762F2596C11D9DC6DE3C3E59865097A /* IoTTaskSchedule.h */,
-				4CFB541D602500AE970BBCCFC261ECDD /* IoTTaskSchedule.m */,
-			);
-			name = IoTTaskSchedule;
-			path = IoTTaskSchedule;
-			sourceTree = "<group>";
-		};
-		E35BFC8CBD18A13318A5A6721679D120 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */,
-				090D6BDE3C2BCE651585582936724642 /* DNKLANIoT */,
-				1D2261867EC149CBB0E17D9475EFB619 /* Pods-DNKLANIoT_Example */,
-				4B4F7015DAD5AF26978AC7E328517AB9 /* Pods-DNKLANIoT_Tests */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		E8A248F85CDEBE386673ADF9C0F6CE91 /* Targets Support Files */ = {
@@ -431,32 +285,6 @@
 			path = "Target Support Files/Pods-DNKLANIoT_Example";
 			sourceTree = "<group>";
 		};
-		F231B17801D572225D6DC31C59C0CEF6 /* DNKLANIoT */ = {
-			isa = PBXGroup;
-			children = (
-				0FA757AA0941828D57B726A4D6A17E21 /* ReplaceMe.m */,
-				52524C1E67B4B8995A56EF2CBD52D8CD /* Pod */,
-				3D95579DFC2F679628AEBFD59C719E32 /* Private */,
-				89A4EC172D3960DFE6739B02C54496D8 /* Public */,
-				2CA066C7A49A5484E62A06EACC7D0528 /* Support Files */,
-			);
-			name = DNKLANIoT;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		F26488BF13288A9B8CB091FA9570EC0F /* CocoaAsyncSocket */ = {
-			isa = PBXGroup;
-			children = (
-				9374467D9662C558DC594371C21B1B16 /* GCDAsyncSocket.h */,
-				41DEE8A2C9D85B1AE3111A98DABA3911 /* GCDAsyncSocket.m */,
-				C8710A4087DF748E081735FBBBC2E72B /* GCDAsyncUdpSocket.h */,
-				78A9B6CEB7A4373DC0D4DCB1C9C5E465 /* GCDAsyncUdpSocket.m */,
-				20FBA2814F5B8EB1A46334124B635D73 /* Support Files */,
-			);
-			name = CocoaAsyncSocket;
-			path = CocoaAsyncSocket;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -483,29 +311,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1640F44F2311D2DA8AD01F936B746675 /* Pods-DNKLANIoT_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F38483A77CAE3E892CE2C466E4DBDBE9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ED1805B024109DDFC3FD65A35DDFF1C2 /* DNKIoTConfig.h in Headers */,
-				A69BD4AF448238D5CB83F742716826FE /* DNKIotEntry.h in Headers */,
-				EF7090F7F2F08B3204B980CA2093D6F3 /* DNKIoTKitDefine.h in Headers */,
-				AAC0C84AFECAAE5CE807F35C1DEA0A72 /* DNKIoTRequest.h in Headers */,
-				8B05F36F611259E044ED46C8CEE7E058 /* DNKIoTRequest+Excute.h in Headers */,
-				B6245DB1BDE85F8E102DFACFAE4BCF06 /* DNKIoTResponse.h in Headers */,
-				2324BF032E9628F8E8838B6D0E006842 /* DNKIoTService.h in Headers */,
-				3F183192B4F638D453F2068B7A1C0175 /* DNKIotUtils.h in Headers */,
-				7B60C4F590B6B7F2D179FEC1832A5E00 /* DNKLANIoT.h in Headers */,
-				E12FB502B536C0858401F69E336964DB /* DNKLANIoT-umbrella.h in Headers */,
-				156FA0178A0B5BAD8150D6401574040C /* EncryptMsg.h in Headers */,
-				D23AD6844832AF4587FCF8B1CF1C8C6C /* IoTConstKey.h in Headers */,
-				AC19DFB71D34D3316E47ABEAE0EA96A6 /* IoTKitProtocol.h in Headers */,
-				3094EB1D47F59A14793687D0D67814F9 /* IoTSendCmd.h in Headers */,
-				85FE033A7B53A2BE4F39E9EAC436B2E5 /* IoTTaskSchedule.h in Headers */,
-				8D7FAE5C99C2C3AA836D0B1B3F55334C /* UdpIoTEntry.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,31 +347,12 @@
 			buildRules = (
 			);
 			dependencies = (
-				F185D9B1F3241CCF9471D77D7A9D105E /* PBXTargetDependency */,
-				B6F19EB0ACEB6043F7D8D4B00550818A /* PBXTargetDependency */,
+				2E0F825952E764BA26884ECF8DDA4AAF /* PBXTargetDependency */,
+				4023D9B53ACE2833E6DCD581C3966D8E /* PBXTargetDependency */,
 			);
 			name = "Pods-DNKLANIoT_Example";
 			productName = Pods_DNKLANIoT_Example;
 			productReference = 1D2261867EC149CBB0E17D9475EFB619 /* Pods-DNKLANIoT_Example */;
-			productType = "com.apple.product-type.framework";
-		};
-		6B0319DA410489ECB0FD8AF718BF7E0F /* DNKLANIoT */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1AD8A2607A5B25325697551CEA9D9E4E /* Build configuration list for PBXNativeTarget "DNKLANIoT" */;
-			buildPhases = (
-				F38483A77CAE3E892CE2C466E4DBDBE9 /* Headers */,
-				B4D6718325CFAFD0E232D918E1B074FE /* Sources */,
-				F002CAE45E48A43B33B101485163EFF2 /* Frameworks */,
-				15ACAC191B80D993C3D941B379900F17 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				21284E82BC81A4498E6AE9BAC7895366 /* PBXTargetDependency */,
-			);
-			name = DNKLANIoT;
-			productName = DNKLANIoT;
-			productReference = 090D6BDE3C2BCE651585582936724642 /* DNKLANIoT */;
 			productType = "com.apple.product-type.framework";
 		};
 		C7A0F8F5BDE34E012BBB254D9F02F626 /* Pods-DNKLANIoT_Tests */ = {
@@ -581,7 +367,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				E8F50ADA5372D4F9BA3C0EC278D2E4FD /* PBXTargetDependency */,
+				0A888A3B5FFB0E144EA1AFDDAEFDCE60 /* PBXTargetDependency */,
 			);
 			name = "Pods-DNKLANIoT_Tests";
 			productName = Pods_DNKLANIoT_Tests;
@@ -606,7 +392,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = E35BFC8CBD18A13318A5A6721679D120 /* Products */;
+			productRefGroup = B79CEEFD416507C09BA2DFDD41629F3A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -619,13 +405,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		15ACAC191B80D993C3D941B379900F17 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3ACE9E63A47177D75D130E5EA2EAAAD5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -650,28 +429,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B4D6718325CFAFD0E232D918E1B074FE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				610D5D7EBD592BCD5249C0B2E6E72C72 /* DNKIoTConfig.m in Sources */,
-				D9500E0783136F950883BC8E7707237D /* DNKIotEntry.m in Sources */,
-				215FCA02F5B4425A7083EACE14521681 /* DNKIoTRequest.m in Sources */,
-				39250AF2D3BA817A34D975EA60CC4DC7 /* DNKIoTRequest+Excute.m in Sources */,
-				C2EC17007B932B04296ADD1DF42F28AC /* DNKIoTResponse.m in Sources */,
-				8018EB0E235F8B829831C367F1FAB547 /* DNKIoTService.m in Sources */,
-				3330935DBF86F51FCF5E71ECF9C07684 /* DNKIotUtils.m in Sources */,
-				114C121344849B3B36BE8705A01903F0 /* DNKLANIoT.m in Sources */,
-				EE3C31D4FF9C69D9B5B23A79668A9957 /* DNKLANIoT-dummy.m in Sources */,
-				D88220DF1C9B0805161C6F03E8FA4623 /* EncryptMsg.cpp in Sources */,
-				04152C1C781A81073790458B7466447B /* IoTConstKey.m in Sources */,
-				887FE5B8851E734712DABD39DA9EF2CA /* IoTSendCmd.m in Sources */,
-				CC07E1262AF181C21BD162573C9569FF /* IoTTaskSchedule.m in Sources */,
-				29845114A0873EEBCB93177C6440BC05 /* ReplaceMe.m in Sources */,
-				2D754043057876C6870AEFEA88FF4287 /* UdpIoTEntry.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B9BA2F3E20981E6576E8626EADB9300B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -701,36 +458,36 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		21284E82BC81A4498E6AE9BAC7895366 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CocoaAsyncSocket;
-			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
-			targetProxy = F27DAD6929E3F499486417C263A2E9CE /* PBXContainerItemProxy */;
-		};
-		B6F19EB0ACEB6043F7D8D4B00550818A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DNKLANIoT;
-			target = 6B0319DA410489ECB0FD8AF718BF7E0F /* DNKLANIoT */;
-			targetProxy = 31F3D08D3979A23C9E01EA653515160A /* PBXContainerItemProxy */;
-		};
-		E8F50ADA5372D4F9BA3C0EC278D2E4FD /* PBXTargetDependency */ = {
+		0A888A3B5FFB0E144EA1AFDDAEFDCE60 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-DNKLANIoT_Example";
 			target = 6817BC3B6D337BC266547AF6D03B6C79 /* Pods-DNKLANIoT_Example */;
-			targetProxy = 3F7AAF75DA919654947D9B4C0D57598F /* PBXContainerItemProxy */;
+			targetProxy = 1E123D90FF349A672A8EAE7193F161B1 /* PBXContainerItemProxy */;
 		};
-		F185D9B1F3241CCF9471D77D7A9D105E /* PBXTargetDependency */ = {
+		184C4B039959C4D5F2AFD70840CA3C2D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CocoaAsyncSocket;
 			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
-			targetProxy = 2661121753CC5DACB3E82984F4F2E75B /* PBXContainerItemProxy */;
+			targetProxy = FBC9B1A241CF3D892B1BC7887C655B9A /* PBXContainerItemProxy */;
+		};
+		2E0F825952E764BA26884ECF8DDA4AAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = 81AAD19A9D38FCD56F5EBC18A1AA584B /* PBXContainerItemProxy */;
+		};
+		4023D9B53ACE2833E6DCD581C3966D8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DNKLANIoT;
+			target = 6B0319DA410489ECB0FD8AF718BF7E0F /* DNKLANIoT */;
+			targetProxy = BF3AA8198248B807D5F26B2A69616A1C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0247D858711773713777F25A7771B350 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72F29FE7499B83FB5FD580208F4E0F8D /* CocoaAsyncSocket.release.xcconfig */;
+			baseConfigurationReference = 527864652FE063AB48FCB03E4BF32662 /* CocoaAsyncSocket.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -792,66 +549,19 @@
 			};
 			name = Release;
 		};
-		13B56F741D68DAD41D209C85CDC3795F /* Release */ = {
+		1DA10EADE6264E20A3570B7042517BF8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 464778CFFAC2F1AAAADD1EA221F1BCC1 /* DNKLANIoT.release.xcconfig */;
+			baseConfigurationReference = 14B29DB9902F914CFF5B45C07F8FADA6 /* DNKLANIoT.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DNKLANIoT/DNKLANIoT-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DNKLANIoT/DNKLANIoT-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DNKLANIoT/DNKLANIoT.modulemap";
-				PRODUCT_MODULE_NAME = DNKLANIoT;
-				PRODUCT_NAME = DNKLANIoT;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		156ADE3067E6FDDE0F91DDFEFEDF59F4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCECAC728159082E365F29CB1D411382 /* DNKLANIoT.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DNKLANIoT/DNKLANIoT-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DNKLANIoT/DNKLANIoT-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DNKLANIoT/DNKLANIoT.modulemap";
-				PRODUCT_MODULE_NAME = DNKLANIoT;
-				PRODUCT_NAME = DNKLANIoT;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -986,7 +696,7 @@
 		};
 		7EB696D49BFDA62EBF045C0A10971288 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A7CF9F2D85AD6EB2D9F534DBEC491A7 /* CocoaAsyncSocket.debug.xcconfig */;
+			baseConfigurationReference = CCC95ED9D809F0B355BFCC4D5EADA6F4 /* CocoaAsyncSocket.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1108,18 +818,22 @@
 			};
 			name = Release;
 		};
+		CBC08ABBC4F332F34DCE323474F9BDA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50C67CEF23C72B2BF9C18235E2E74DF9 /* DNKLANIoT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1AD8A2607A5B25325697551CEA9D9E4E /* Build configuration list for PBXNativeTarget "DNKLANIoT" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				156ADE3067E6FDDE0F91DDFEFEDF59F4 /* Debug */,
-				13B56F741D68DAD41D209C85CDC3795F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		388648E027FD95C538A9F37A920D0070 /* Build configuration list for PBXNativeTarget "Pods-DNKLANIoT_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1143,6 +857,15 @@
 			buildConfigurations = (
 				5AED027E48B4B9DC88BDAEF0ECB484C3 /* Debug */,
 				58EAD8B0E00743A1C61DC0FE28852B8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAB2DBED74155D6E5EB9925202238C48 /* Build configuration list for PBXAggregateTarget "DNKLANIoT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBC08ABBC4F332F34DCE323474F9BDA3 /* Debug */,
+				1DA10EADE6264E20A3570B7042517BF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

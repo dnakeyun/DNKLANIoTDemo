@@ -10,7 +10,6 @@
 		1E3B856A29C0750400B6379E /* QRScanVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3B856829C074BE00B6379E /* QRScanVC.m */; };
 		1E3B856E29C0765A00B6379E /* DNKDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3B856C29C0765900B6379E /* DNKDevice.m */; };
 		1E66025029BF053600EA7906 /* DNKWiFiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E66024F29BF053600EA7906 /* DNKWiFiViewController.m */; };
-		448EC66DB736F4C6629CF078 /* Pods_DNKLANIoT_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5069EADD24BBAD233FA13F68 /* Pods_DNKLANIoT_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -19,14 +18,14 @@
 		6003F59E195388D20070C39A /* DNKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* DNKAppDelegate.m */; };
 		6003F5A7195388D20070C39A /* DNKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* DNKViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
-		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		71215E9437EA0DF911D591AB /* Pods_DNKLANIoT_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41378F5013CC204B097F69F9 /* Pods_DNKLANIoT_Tests.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A926A12ABADA4277353C1222 /* Pods_DNKLANIoT_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0B7861671000D25F53CA4C /* Pods_DNKLANIoT_Tests.framework */; };
+		FFCDD3FC92E7840199B98CF1 /* Pods_DNKLANIoT_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6609E083D1CC73050DE7BB19 /* Pods_DNKLANIoT_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,12 +47,10 @@
 		1E66024E29BF053600EA7906 /* DNKWiFiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DNKWiFiViewController.h; sourceTree = "<group>"; };
 		1E66024F29BF053600EA7906 /* DNKWiFiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNKWiFiViewController.m; sourceTree = "<group>"; };
 		1E79F76829BB32E40009DC2C /* DNKLANIoT_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DNKLANIoT_Example.entitlements; sourceTree = "<group>"; };
-		41378F5013CC204B097F69F9 /* Pods_DNKLANIoT_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DNKLANIoT_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		467F38DB240D39118339EC6C /* Pods-DNKLANIoT_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNKLANIoT_Example.release.xcconfig"; path = "Target Support Files/Pods-DNKLANIoT_Example/Pods-DNKLANIoT_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2E0B7861671000D25F53CA4C /* Pods_DNKLANIoT_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DNKLANIoT_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FD62DF37D4802A2AC950B9E /* Pods-DNKLANIoT_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNKLANIoT_Tests.release.xcconfig"; path = "Target Support Files/Pods-DNKLANIoT_Tests/Pods-DNKLANIoT_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4E20C521D2A4E1F27F6DA5F7 /* DNKLANIoT.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DNKLANIoT.podspec; path = ../DNKLANIoT.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5069EADD24BBAD233FA13F68 /* Pods_DNKLANIoT_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DNKLANIoT_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51713000020A8A0CD9F3040F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		589119869D539CFAF4AA1659 /* Pods-DNKLANIoT_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNKLANIoT_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DNKLANIoT_Tests/Pods-DNKLANIoT_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DNKLANIoT_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNKLANIoT_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -68,16 +65,17 @@
 		6003F5A6195388D20070C39A /* DNKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNKViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* DNKLANIoT_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DNKLANIoT_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6609E083D1CC73050DE7BB19 /* Pods_DNKLANIoT_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DNKLANIoT_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DCDB999559039424F73CC3E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D9AE006768671F4C1A9E39E4 /* Pods-DNKLANIoT_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNKLANIoT_Example.debug.xcconfig"; path = "Target Support Files/Pods-DNKLANIoT_Example/Pods-DNKLANIoT_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E326298525C774ED515609AC /* Pods-DNKLANIoT_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNKLANIoT_Tests.release.xcconfig"; path = "Target Support Files/Pods-DNKLANIoT_Tests/Pods-DNKLANIoT_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B88CA6AA05F85B1560EB5185 /* Pods-DNKLANIoT_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNKLANIoT_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DNKLANIoT_Tests/Pods-DNKLANIoT_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE16D2947FF186EF6BA732A7 /* Pods-DNKLANIoT_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNKLANIoT_Example.release.xcconfig"; path = "Target Support Files/Pods-DNKLANIoT_Example/Pods-DNKLANIoT_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F449C0D86E226954F35D5EF2 /* Pods-DNKLANIoT_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNKLANIoT_Example.debug.xcconfig"; path = "Target Support Files/Pods-DNKLANIoT_Example/Pods-DNKLANIoT_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +86,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				448EC66DB736F4C6629CF078 /* Pods_DNKLANIoT_Example.framework in Frameworks */,
+				FFCDD3FC92E7840199B98CF1 /* Pods_DNKLANIoT_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,10 +94,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				71215E9437EA0DF911D591AB /* Pods_DNKLANIoT_Tests.framework in Frameworks */,
+				A926A12ABADA4277353C1222 /* Pods_DNKLANIoT_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,17 +123,6 @@
 			path = DNKDevice;
 			sourceTree = "<group>";
 		};
-		57BA5A90E38725F779481379 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D9AE006768671F4C1A9E39E4 /* Pods-DNKLANIoT_Example.debug.xcconfig */,
-				467F38DB240D39118339EC6C /* Pods-DNKLANIoT_Example.release.xcconfig */,
-				589119869D539CFAF4AA1659 /* Pods-DNKLANIoT_Tests.debug.xcconfig */,
-				E326298525C774ED515609AC /* Pods-DNKLANIoT_Tests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -146,7 +132,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				57BA5A90E38725F779481379 /* Pods */,
+				77ADAC7F15FF5535F1D720D5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -165,9 +151,8 @@
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
-				6003F5AF195388D20070C39A /* XCTest.framework */,
-				5069EADD24BBAD233FA13F68 /* Pods_DNKLANIoT_Example.framework */,
-				41378F5013CC204B097F69F9 /* Pods_DNKLANIoT_Tests.framework */,
+				6609E083D1CC73050DE7BB19 /* Pods_DNKLANIoT_Example.framework */,
+				2E0B7861671000D25F53CA4C /* Pods_DNKLANIoT_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -231,6 +216,18 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		77ADAC7F15FF5535F1D720D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F449C0D86E226954F35D5EF2 /* Pods-DNKLANIoT_Example.debug.xcconfig */,
+				CE16D2947FF186EF6BA732A7 /* Pods-DNKLANIoT_Example.release.xcconfig */,
+				B88CA6AA05F85B1560EB5185 /* Pods-DNKLANIoT_Tests.debug.xcconfig */,
+				3FD62DF37D4802A2AC950B9E /* Pods-DNKLANIoT_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -242,7 +239,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				5018292251CC3FE8CBE34E0C /* [CP] Embed Pods Frameworks */,
+				E0B3C8C7D45D5642DEAF0BDF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -334,26 +331,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5018292251CC3FE8CBE34E0C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DNKLANIoT_Example/Pods-DNKLANIoT_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
-				"${BUILT_PRODUCTS_DIR}/DNKLANIoT/DNKLANIoT.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DNKLANIoT.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DNKLANIoT_Example/Pods-DNKLANIoT_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5536B53F6FAC482DA0F2B19C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -396,6 +373,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0B3C8C7D45D5642DEAF0BDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DNKLANIoT_Example/Pods-DNKLANIoT_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DNKLANIoT_Example/Pods-DNKLANIoT_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -478,6 +473,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -493,7 +489,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -518,6 +513,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -526,7 +522,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -535,7 +531,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9AE006768671F4C1A9E39E4 /* Pods-DNKLANIoT_Example.debug.xcconfig */;
+			baseConfigurationReference = F449C0D86E226954F35D5EF2 /* Pods-DNKLANIoT_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = DNKLANIoT_Example.entitlements;
@@ -545,7 +541,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DNKLANIoT/DNKLANIoT-Prefix.pch";
 				INFOPLIST_FILE = "DNKLANIoT/DNKLANIoT-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dnake.github.laniot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -556,7 +554,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 467F38DB240D39118339EC6C /* Pods-DNKLANIoT_Example.release.xcconfig */;
+			baseConfigurationReference = CE16D2947FF186EF6BA732A7 /* Pods-DNKLANIoT_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = DNKLANIoT_Example.entitlements;
@@ -566,6 +564,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DNKLANIoT/DNKLANIoT-Prefix.pch";
 				INFOPLIST_FILE = "DNKLANIoT/DNKLANIoT-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dnake.github.laniot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -577,7 +576,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 589119869D539CFAF4AA1659 /* Pods-DNKLANIoT_Tests.debug.xcconfig */;
+			baseConfigurationReference = B88CA6AA05F85B1560EB5185 /* Pods-DNKLANIoT_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -592,6 +591,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -602,7 +602,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E326298525C774ED515609AC /* Pods-DNKLANIoT_Tests.release.xcconfig */;
+			baseConfigurationReference = 3FD62DF37D4802A2AC950B9E /* Pods-DNKLANIoT_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -613,6 +613,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
